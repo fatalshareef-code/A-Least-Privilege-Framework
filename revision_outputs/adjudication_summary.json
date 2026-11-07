@@ -1,0 +1,31 @@
+{
+ "strata": {
+  "marker": {
+   "population": 1491,
+   "n": 40,
+   "confirmed": 37,
+   "C2c": 24,
+   "C3s": 32,
+   "false_labels_admitted_by_C3": 0
+  },
+  "fallback": {
+   "population": 203,
+   "n": 40,
+   "confirmed": 29,
+   "C2c": 25,
+   "C3s": 25,
+   "false_labels_admitted_by_C3": 8
+  },
+  "coincident": {
+   "population": 418,
+   "n": 40,
+   "confirmed": 31,
+   "C2c": 25,
+   "C3s": 26,
+   "false_labels_admitted_by_C3": 5
+  }
+ },
+ "weighted_precision": 87.6,
+ "weighted_C2c": 69.3,
+ "weighted_C3s": 86.0
+}

@@ -1,0 +1,522 @@
+{
+  "input_sha256": "7fb9255201b3575e1764305f30293a710417bfaeb413139886233487675fa1c9",
+  "seed": 20260918,
+  "replicates": 10000,
+  "numpy": "2.4.4",
+  "counts": {
+    "all_runs": 609,
+    "non_dos_runs": 609,
+    "dos_runs_reported_separately": 0,
+    "runs_with_attempted_malicious_call": 74,
+    "security_breaches_reported_by_agentdojo": 38,
+    "distinct_security_cases": 609,
+    "distinct_user_tasks": 97,
+    "distinct_injection_tasks": 26,
+    "attack_templates": 1
+  },
+  "label_validation": {
+    "recall_of_malicious_call_labelling_on_agentdojo_breaches": 1.0,
+    "p_breach_given_attempted": 0.5135135135135135
+  },
+  "containment_conditional_on_attempt": {
+    "security_case": {
+      "clusters": 74,
+      "observations": 74,
+      "metrics": {
+        "C1_none": {
+          "estimate": 0.0,
+          "low": 0.0,
+          "high": 0.0
+        },
+        "C2_broad": {
+          "estimate": 0.0,
+          "low": 0.0,
+          "high": 0.0
+        },
+        "C2_suite_used": {
+          "estimate": 0.0,
+          "low": 0.0,
+          "high": 0.0
+        },
+        "C2_task": {
+          "estimate": 0.0,
+          "low": 0.0,
+          "high": 0.0
+        },
+        "C3_lpf_scope": {
+          "estimate": 0.5405405405405406,
+          "low": 0.43243243243243246,
+          "high": 0.6486486486486487
+        },
+        "C3_lpf_full": {
+          "estimate": 0.5675675675675675,
+          "low": 0.4594594594594595,
+          "high": 0.6756756756756757
+        }
+      },
+      "warning": null
+    },
+    "injection_task": {
+      "clusters": 21,
+      "observations": 74,
+      "metrics": {
+        "C1_none": {
+          "estimate": 0.0,
+          "low": 0.0,
+          "high": 0.0
+        },
+        "C2_broad": {
+          "estimate": 0.0,
+          "low": 0.0,
+          "high": 0.0
+        },
+        "C2_suite_used": {
+          "estimate": 0.0,
+          "low": 0.0,
+          "high": 0.0
+        },
+        "C2_task": {
+          "estimate": 0.0,
+          "low": 0.0,
+          "high": 0.0
+        },
+        "C3_lpf_scope": {
+          "estimate": 0.5405405405405406,
+          "low": 0.32,
+          "high": 0.7419437978051213
+        },
+        "C3_lpf_full": {
+          "estimate": 0.5675675675675675,
+          "low": 0.3661885949845414,
+          "high": 0.7464788732394366
+        }
+      },
+      "warning": "fewer than 30 clusters"
+    },
+    "attack_template": {
+      "clusters": 1,
+      "observations": 74,
+      "metrics": {
+        "C1_none": {
+          "estimate": 0.0,
+          "low": 0.0,
+          "high": 0.0
+        },
+        "C2_broad": {
+          "estimate": 0.0,
+          "low": 0.0,
+          "high": 0.0
+        },
+        "C2_suite_used": {
+          "estimate": 0.0,
+          "low": 0.0,
+          "high": 0.0
+        },
+        "C2_task": {
+          "estimate": 0.0,
+          "low": 0.0,
+          "high": 0.0
+        },
+        "C3_lpf_scope": {
+          "estimate": 0.5405405405405406,
+          "low": 0.5405405405405406,
+          "high": 0.5405405405405406
+        },
+        "C3_lpf_full": {
+          "estimate": 0.5675675675675675,
+          "low": 0.5675675675675675,
+          "high": 0.5675675675675675
+        }
+      },
+      "warning": "fewer than 30 clusters"
+    },
+    "user_task": {
+      "clusters": 37,
+      "observations": 74,
+      "metrics": {
+        "C1_none": {
+          "estimate": 0.0,
+          "low": 0.0,
+          "high": 0.0
+        },
+        "C2_broad": {
+          "estimate": 0.0,
+          "low": 0.0,
+          "high": 0.0
+        },
+        "C2_suite_used": {
+          "estimate": 0.0,
+          "low": 0.0,
+          "high": 0.0
+        },
+        "C2_task": {
+          "estimate": 0.0,
+          "low": 0.0,
+          "high": 0.0
+        },
+        "C3_lpf_scope": {
+          "estimate": 0.5405405405405406,
+          "low": 0.352112676056338,
+          "high": 0.6976744186046512
+        },
+        "C3_lpf_full": {
+          "estimate": 0.5675675675675675,
+          "low": 0.38596491228070173,
+          "high": 0.7236842105263158
+        }
+      },
+      "warning": null
+    }
+  },
+  "paired_differences": {
+    "security_case": {
+      "clusters": 74,
+      "observations": 74,
+      "metrics": {
+        "C3_lpf_scope_minus_C2_task": {
+          "estimate": 0.5405405405405406,
+          "low": 0.43243243243243246,
+          "high": 0.6486486486486487
+        },
+        "C3_lpf_full_minus_C2_task": {
+          "estimate": 0.5675675675675675,
+          "low": 0.4594594594594595,
+          "high": 0.6756756756756757
+        },
+        "C2_task_minus_C2_broad": {
+          "estimate": 0.0,
+          "low": 0.0,
+          "high": 0.0
+        },
+        "C3_lpf_full_minus_C3_lpf_scope": {
+          "estimate": 0.02702702702702703,
+          "low": 0.0,
+          "high": 0.06756756756756757
+        }
+      },
+      "warning": null
+    },
+    "injection_task": {
+      "clusters": 21,
+      "observations": 74,
+      "metrics": {
+        "C3_lpf_scope_minus_C2_task": {
+          "estimate": 0.5405405405405406,
+          "low": 0.32,
+          "high": 0.7419437978051213
+        },
+        "C3_lpf_full_minus_C2_task": {
+          "estimate": 0.5675675675675675,
+          "low": 0.3661885949845414,
+          "high": 0.7464788732394366
+        },
+        "C2_task_minus_C2_broad": {
+          "estimate": 0.0,
+          "low": 0.0,
+          "high": 0.0
+        },
+        "C3_lpf_full_minus_C3_lpf_scope": {
+          "estimate": 0.02702702702702703,
+          "low": 0.0,
+          "high": 0.08
+        }
+      },
+      "warning": "fewer than 30 clusters"
+    },
+    "attack_template": {
+      "clusters": 1,
+      "observations": 74,
+      "metrics": {
+        "C3_lpf_scope_minus_C2_task": {
+          "estimate": 0.5405405405405406,
+          "low": 0.5405405405405406,
+          "high": 0.5405405405405406
+        },
+        "C3_lpf_full_minus_C2_task": {
+          "estimate": 0.5675675675675675,
+          "low": 0.5675675675675675,
+          "high": 0.5675675675675675
+        },
+        "C2_task_minus_C2_broad": {
+          "estimate": 0.0,
+          "low": 0.0,
+          "high": 0.0
+        },
+        "C3_lpf_full_minus_C3_lpf_scope": {
+          "estimate": 0.02702702702702703,
+          "low": 0.02702702702702703,
+          "high": 0.02702702702702703
+        }
+      },
+      "warning": "fewer than 30 clusters"
+    },
+    "user_task": {
+      "clusters": 37,
+      "observations": 74,
+      "metrics": {
+        "C3_lpf_scope_minus_C2_task": {
+          "estimate": 0.5405405405405406,
+          "low": 0.352112676056338,
+          "high": 0.6976744186046512
+        },
+        "C3_lpf_full_minus_C2_task": {
+          "estimate": 0.5675675675675675,
+          "low": 0.38596491228070173,
+          "high": 0.7236842105263158
+        },
+        "C2_task_minus_C2_broad": {
+          "estimate": 0.0,
+          "low": 0.0,
+          "high": 0.0
+        },
+        "C3_lpf_full_minus_C3_lpf_scope": {
+          "estimate": 0.02702702702702703,
+          "low": 0.0,
+          "high": 0.07501179245283002
+        }
+      },
+      "warning": null
+    }
+  },
+  "legitimate_call_preservation": {
+    "user_task": {
+      "clusters": 97,
+      "observations": 609,
+      "metrics": {
+        "C1_none": {
+          "estimate": 1.0,
+          "low": 1.0,
+          "high": 1.0
+        },
+        "C2_broad": {
+          "estimate": 1.0,
+          "low": 1.0,
+          "high": 1.0
+        },
+        "C2_suite_used": {
+          "estimate": 1.0,
+          "low": 1.0,
+          "high": 1.0
+        },
+        "C2_task": {
+          "estimate": 1.0,
+          "low": 1.0,
+          "high": 1.0
+        },
+        "C3_lpf_scope": {
+          "estimate": 0.8834154351395731,
+          "low": 0.8273026315789473,
+          "high": 0.9332275922988674
+        },
+        "C3_lpf_full": {
+          "estimate": 0.8456486042692939,
+          "low": 0.7899818057916257,
+          "high": 0.8964401294498382
+        }
+      },
+      "warning": null
+    },
+    "security_case": {
+      "clusters": 609,
+      "observations": 609,
+      "metrics": {
+        "C1_none": {
+          "estimate": 1.0,
+          "low": 1.0,
+          "high": 1.0
+        },
+        "C2_broad": {
+          "estimate": 1.0,
+          "low": 1.0,
+          "high": 1.0
+        },
+        "C2_suite_used": {
+          "estimate": 1.0,
+          "low": 1.0,
+          "high": 1.0
+        },
+        "C2_task": {
+          "estimate": 1.0,
+          "low": 1.0,
+          "high": 1.0
+        },
+        "C3_lpf_scope": {
+          "estimate": 0.8834154351395731,
+          "low": 0.8571428571428571,
+          "high": 0.9080459770114943
+        },
+        "C3_lpf_full": {
+          "estimate": 0.8456486042692939,
+          "low": 0.8160919540229885,
+          "high": 0.8735632183908046
+        }
+      },
+      "warning": null
+    }
+  },
+  "structural_destination_coincidence": {
+    "cases": 54,
+    "of_total_cases": 609,
+    "note": "The attacker destination is a legitimate destination of the user's own task. Destination scoping cannot contain these cases by construction; they bound what Layer 2 can achieve."
+  },
+  "lpf_block_reasons_over_attempted_runs": {
+    "argument_scope": 40,
+    "admitted": 32,
+    "approval_gate": 9
+  },
+  "containment_by_suite": {
+    "banking": {
+      "clusters": 36,
+      "observations": 36,
+      "metrics": {
+        "C1_none": {
+          "estimate": 0.0,
+          "low": 0.0,
+          "high": 0.0
+        },
+        "C2_broad": {
+          "estimate": 0.0,
+          "low": 0.0,
+          "high": 0.0
+        },
+        "C2_suite_used": {
+          "estimate": 0.0,
+          "low": 0.0,
+          "high": 0.0
+        },
+        "C2_task": {
+          "estimate": 0.0,
+          "low": 0.0,
+          "high": 0.0
+        },
+        "C3_lpf_scope": {
+          "estimate": 0.8055555555555556,
+          "low": 0.6666666666666666,
+          "high": 0.9166666666666666
+        },
+        "C3_lpf_full": {
+          "estimate": 0.8055555555555556,
+          "low": 0.6666666666666666,
+          "high": 0.9166666666666666
+        }
+      },
+      "warning": null
+    },
+    "slack": {
+      "clusters": 20,
+      "observations": 20,
+      "metrics": {
+        "C1_none": {
+          "estimate": 0.0,
+          "low": 0.0,
+          "high": 0.0
+        },
+        "C2_broad": {
+          "estimate": 0.0,
+          "low": 0.0,
+          "high": 0.0
+        },
+        "C2_suite_used": {
+          "estimate": 0.0,
+          "low": 0.0,
+          "high": 0.0
+        },
+        "C2_task": {
+          "estimate": 0.0,
+          "low": 0.0,
+          "high": 0.0
+        },
+        "C3_lpf_scope": {
+          "estimate": 0.5,
+          "low": 0.3,
+          "high": 0.7
+        },
+        "C3_lpf_full": {
+          "estimate": 0.5,
+          "low": 0.3,
+          "high": 0.7
+        }
+      },
+      "warning": "fewer than 30 clusters"
+    },
+    "travel": {
+      "clusters": 7,
+      "observations": 7,
+      "metrics": {
+        "C1_none": {
+          "estimate": 0.0,
+          "low": 0.0,
+          "high": 0.0
+        },
+        "C2_broad": {
+          "estimate": 0.0,
+          "low": 0.0,
+          "high": 0.0
+        },
+        "C2_suite_used": {
+          "estimate": 0.0,
+          "low": 0.0,
+          "high": 0.0
+        },
+        "C2_task": {
+          "estimate": 0.0,
+          "low": 0.0,
+          "high": 0.0
+        },
+        "C3_lpf_scope": {
+          "estimate": 0.0,
+          "low": 0.0,
+          "high": 0.0
+        },
+        "C3_lpf_full": {
+          "estimate": 0.0,
+          "low": 0.0,
+          "high": 0.0
+        }
+      },
+      "warning": "fewer than 30 clusters"
+    },
+    "workspace": {
+      "clusters": 11,
+      "observations": 11,
+      "metrics": {
+        "C1_none": {
+          "estimate": 0.0,
+          "low": 0.0,
+          "high": 0.0
+        },
+        "C2_broad": {
+          "estimate": 0.0,
+          "low": 0.0,
+          "high": 0.0
+        },
+        "C2_suite_used": {
+          "estimate": 0.0,
+          "low": 0.0,
+          "high": 0.0
+        },
+        "C2_task": {
+          "estimate": 0.0,
+          "low": 0.0,
+          "high": 0.0
+        },
+        "C3_lpf_scope": {
+          "estimate": 0.09090909090909091,
+          "low": 0.0,
+          "high": 0.2727272727272727
+        },
+        "C3_lpf_full": {
+          "estimate": 0.2727272727272727,
+          "low": 0.0,
+          "high": 0.5454545454545454
+        }
+      },
+      "warning": "fewer than 30 clusters"
+    }
+  },
+  "dos_attacks": {
+    "runs": 0,
+    "agentdojo_breaches": 0,
+    "note": "Denial-of-service payloads have no privileged ground-truth tool call. Access control cannot contain them and they are excluded from the containment denominator."
+  }
+}

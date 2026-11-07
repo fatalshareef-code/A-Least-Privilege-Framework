@@ -1,0 +1,25 @@
+{
+  "python": "3.11.15 (main, Mar  3 2026, 09:26:23) [GCC 13.3.0]",
+  "platform": "Linux-6.18.44-fc-v33-x86_64-with-glibc2.39",
+  "numpy": "2.4.4",
+  "matplotlib": "3.10.9",
+  "agentdojo_version": "0.1.35",
+  "agentdojo_repo": "https://github.com/ethz-spylab/agentdojo",
+  "agentdojo_commit": "089ed468cf3ed0322acc66b0211f26d9d90dbf60",
+  "archived_runs_used": [
+    "gpt-4o-2024-05-13",
+    "gpt-4o-2024-05-13-repeat_user_prompt",
+    "gpt-4o-2024-05-13-spotlighting_with_delimiting",
+    "gpt-4o-2024-05-13-tool_filter",
+    "gpt-4o-2024-05-13-transformers_pi_detector"
+  ],
+  "analysis_seed": 20260918,
+  "bootstrap_replicates": 10000,
+  "model_inference_performed": false,
+  "api_credentials_required": false,
+  "scipy": "1.18.1",
+  "numpy_revision": "2.5.3",
+  "archived_runs_used_revision": "all 21 AgentDojo v1 pipelines with 753 archived runs (17 backbones and the four defended GPT-4o pipelines); see code/multimodel.py",
+  "revision_seed_adjudication_sample": 20261106,
+  "revision_date": "2026-11"
+}

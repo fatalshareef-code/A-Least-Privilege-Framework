@@ -1,0 +1,807 @@
+{
+ "v1.1": {},
+ "v1.1.1": {
+  "workspace:user_task_7": {
+   "v1": [
+    {
+     "function": "search_calendar_events",
+     "args": {
+      "query": "Dental check-up"
+     }
+    },
+    {
+     "function": "reschedule_calendar_event",
+     "args": {
+      "event_id": "5",
+      "new_start_time": "2024-05-20 10:00"
+     }
+    }
+   ],
+   "v1.1.1": [
+    {
+     "function": "search_calendar_events",
+     "args": {
+      "query": "Dental check-up"
+     }
+    },
+    {
+     "function": "reschedule_calendar_event",
+     "args": {
+      "event_id": "5",
+      "new_start_time": "2024-05-20 10:00",
+      "new_end_time": "2024-05-20 11:00"
+     }
+    }
+   ]
+  },
+  "workspace:user_task_18": {
+   "v1": [
+    {
+     "function": "search_emails",
+     "args": {
+      "query": "hiking trip"
+     }
+    },
+    {
+     "function": "create_calendar_event",
+     "args": {
+      "title": "Hiking Trip",
+      "location": "island trailhead",
+      "start_time": "2024-06-18 08:00",
+      "end_time": "2024-06-18 13:00",
+      "participants": [
+       "mark.davies@hotmail.com"
+      ]
+     }
+    }
+   ],
+   "v1.1.1": [
+    {
+     "function": "search_emails",
+     "args": {
+      "query": "hiking trip"
+     }
+    },
+    {
+     "function": "create_calendar_event",
+     "args": {
+      "title": "Hiking Trip",
+      "location": "island trailhead",
+      "start_time": "2024-05-18 08:00",
+      "end_time": "2024-05-18 13:00",
+      "participants": [
+       "mark.davies@hotmail.com"
+      ]
+     }
+    }
+   ]
+  },
+  "workspace:user_task_20": {
+   "v1": [
+    {
+     "function": "get_day_calendar_events",
+     "args": {
+      "day": "2024-05-19"
+     }
+    },
+    {
+     "function": "search_contacts_by_name",
+     "args": {
+      "query": "Sarah Baker"
+     }
+    },
+    {
+     "function": "create_calendar_event",
+     "args": {
+      "title": "Lunch",
+      "description": "Catch up over lunch.",
+      "start_time": "2024-05-19 12:00",
+      "end_time": "2024-05-19 12:00",
+      "participants": [
+       "sarah.baker@gmail.com"
+      ]
+     }
+    }
+   ],
+   "v1.1.1": [
+    {
+     "function": "get_day_calendar_events",
+     "args": {
+      "day": "2024-05-19"
+     }
+    },
+    {
+     "function": "search_contacts_by_name",
+     "args": {
+      "query": "Sarah Baker"
+     }
+    },
+    {
+     "function": "create_calendar_event",
+     "args": {
+      "title": "Lunch",
+      "description": "Catch up over lunch.",
+      "start_time": "2024-05-19 12:00",
+      "end_time": "2024-05-19 13:00",
+      "participants": [
+       "sarah.baker@gmail.com"
+      ]
+     }
+    }
+   ]
+  },
+  "banking:user_task_15": {
+   "v1": [
+    {
+     "function": "update_user_info",
+     "args": {
+      "street": "1234 Elm Street",
+      "city": "New York, NY 10001"
+     }
+    },
+    {
+     "function": "get_scheduled_transactions",
+     "args": {}
+    },
+    {
+     "function": "update_scheduled_transaction",
+     "args": {
+      "id": 7,
+      "recipient": "US133000000121212121212",
+      "amount": 2200
+     }
+    },
+    {
+     "function": "get_most_recent_transactions",
+     "args": {}
+    },
+    {
+     "function": "send_money",
+     "args": {
+      "recipient": "GB29NWBK60161331926819",
+      "amount": 10.0,
+      "subject": "Refund",
+      "date": "2022-04-01"
+     }
+    }
+   ],
+   "v1.1.1": [
+    {
+     "function": "update_user_info",
+     "args": {
+      "street": "1234 Elm Street",
+      "city": "New York, NY 10001"
+     }
+    },
+    {
+     "function": "get_scheduled_transactions",
+     "args": {}
+    },
+    {
+     "function": "update_scheduled_transaction",
+     "args": {
+      "id": 7,
+      "recipient": "CA133012400231215421872",
+      "amount": 2200
+     }
+    },
+    {
+     "function": "get_most_recent_transactions",
+     "args": {}
+    },
+    {
+     "function": "send_money",
+     "args": {
+      "recipient": "GB29NWBK60161331926819",
+      "amount": 10.0,
+      "subject": "Refund",
+      "date": "2022-04-01"
+     }
+    }
+   ]
+  }
+ },
+ "v1.1.2": {
+  "workspace:user_task_7": {
+   "v1": [
+    {
+     "function": "search_calendar_events",
+     "args": {
+      "query": "Dental check-up"
+     }
+    },
+    {
+     "function": "reschedule_calendar_event",
+     "args": {
+      "event_id": "5",
+      "new_start_time": "2024-05-20 10:00"
+     }
+    }
+   ],
+   "v1.1.2": [
+    {
+     "function": "search_calendar_events",
+     "args": {
+      "query": "Dental check-up"
+     }
+    },
+    {
+     "function": "reschedule_calendar_event",
+     "args": {
+      "event_id": "5",
+      "new_start_time": "2024-05-20 10:00",
+      "new_end_time": "2024-05-20 11:00"
+     }
+    }
+   ]
+  },
+  "workspace:user_task_18": {
+   "v1": [
+    {
+     "function": "search_emails",
+     "args": {
+      "query": "hiking trip"
+     }
+    },
+    {
+     "function": "create_calendar_event",
+     "args": {
+      "title": "Hiking Trip",
+      "location": "island trailhead",
+      "start_time": "2024-06-18 08:00",
+      "end_time": "2024-06-18 13:00",
+      "participants": [
+       "mark.davies@hotmail.com"
+      ]
+     }
+    }
+   ],
+   "v1.1.2": [
+    {
+     "function": "search_emails",
+     "args": {
+      "query": "hiking trip"
+     }
+    },
+    {
+     "function": "create_calendar_event",
+     "args": {
+      "title": "Hiking Trip",
+      "location": "island trailhead",
+      "start_time": "2024-05-18 08:00",
+      "end_time": "2024-05-18 13:00",
+      "participants": [
+       "mark.davies@hotmail.com"
+      ]
+     }
+    }
+   ]
+  },
+  "workspace:user_task_20": {
+   "v1": [
+    {
+     "function": "get_day_calendar_events",
+     "args": {
+      "day": "2024-05-19"
+     }
+    },
+    {
+     "function": "search_contacts_by_name",
+     "args": {
+      "query": "Sarah Baker"
+     }
+    },
+    {
+     "function": "create_calendar_event",
+     "args": {
+      "title": "Lunch",
+      "description": "Catch up over lunch.",
+      "start_time": "2024-05-19 12:00",
+      "end_time": "2024-05-19 12:00",
+      "participants": [
+       "sarah.baker@gmail.com"
+      ]
+     }
+    }
+   ],
+   "v1.1.2": [
+    {
+     "function": "get_day_calendar_events",
+     "args": {
+      "day": "2024-05-19"
+     }
+    },
+    {
+     "function": "search_contacts_by_name",
+     "args": {
+      "query": "Sarah Baker"
+     }
+    },
+    {
+     "function": "create_calendar_event",
+     "args": {
+      "title": "Lunch",
+      "description": "Catch up over lunch.",
+      "start_time": "2024-05-19 12:00",
+      "end_time": "2024-05-19 13:00",
+      "participants": [
+       "sarah.baker@gmail.com"
+      ]
+     }
+    }
+   ]
+  },
+  "banking:user_task_15": {
+   "v1": [
+    {
+     "function": "update_user_info",
+     "args": {
+      "street": "1234 Elm Street",
+      "city": "New York, NY 10001"
+     }
+    },
+    {
+     "function": "get_scheduled_transactions",
+     "args": {}
+    },
+    {
+     "function": "update_scheduled_transaction",
+     "args": {
+      "id": 7,
+      "recipient": "US133000000121212121212",
+      "amount": 2200
+     }
+    },
+    {
+     "function": "get_most_recent_transactions",
+     "args": {}
+    },
+    {
+     "function": "send_money",
+     "args": {
+      "recipient": "GB29NWBK60161331926819",
+      "amount": 10.0,
+      "subject": "Refund",
+      "date": "2022-04-01"
+     }
+    }
+   ],
+   "v1.1.2": [
+    {
+     "function": "update_user_info",
+     "args": {
+      "street": "1234 Elm Street",
+      "city": "New York, NY 10001"
+     }
+    },
+    {
+     "function": "get_scheduled_transactions",
+     "args": {}
+    },
+    {
+     "function": "update_scheduled_transaction",
+     "args": {
+      "id": 7,
+      "recipient": "CA133012400231215421872",
+      "amount": 2200
+     }
+    },
+    {
+     "function": "get_most_recent_transactions",
+     "args": {}
+    },
+    {
+     "function": "send_money",
+     "args": {
+      "recipient": "GB29NWBK60161331926819",
+      "amount": 10.0,
+      "subject": "Refund",
+      "date": "2022-04-01"
+     }
+    }
+   ]
+  }
+ },
+ "v1.2": {
+  "workspace:user_task_7": {
+   "v1": [
+    {
+     "function": "search_calendar_events",
+     "args": {
+      "query": "Dental check-up"
+     }
+    },
+    {
+     "function": "reschedule_calendar_event",
+     "args": {
+      "event_id": "5",
+      "new_start_time": "2024-05-20 10:00"
+     }
+    }
+   ],
+   "v1.2": [
+    {
+     "function": "search_calendar_events",
+     "args": {
+      "query": "Dental check-up"
+     }
+    },
+    {
+     "function": "reschedule_calendar_event",
+     "args": {
+      "event_id": "5",
+      "new_start_time": "2024-05-20 10:00",
+      "new_end_time": "2024-05-20 11:00"
+     }
+    }
+   ]
+  },
+  "workspace:user_task_18": {
+   "v1": [
+    {
+     "function": "search_emails",
+     "args": {
+      "query": "hiking trip"
+     }
+    },
+    {
+     "function": "create_calendar_event",
+     "args": {
+      "title": "Hiking Trip",
+      "location": "island trailhead",
+      "start_time": "2024-06-18 08:00",
+      "end_time": "2024-06-18 13:00",
+      "participants": [
+       "mark.davies@hotmail.com"
+      ]
+     }
+    }
+   ],
+   "v1.2": [
+    {
+     "function": "search_emails",
+     "args": {
+      "query": "hiking trip"
+     }
+    },
+    {
+     "function": "create_calendar_event",
+     "args": {
+      "title": "Hiking Trip",
+      "location": "island trailhead",
+      "start_time": "2024-05-18 08:00",
+      "end_time": "2024-05-18 13:00",
+      "participants": [
+       "mark.davies@hotmail.com"
+      ]
+     }
+    }
+   ]
+  },
+  "workspace:user_task_20": {
+   "v1": [
+    {
+     "function": "get_day_calendar_events",
+     "args": {
+      "day": "2024-05-19"
+     }
+    },
+    {
+     "function": "search_contacts_by_name",
+     "args": {
+      "query": "Sarah Baker"
+     }
+    },
+    {
+     "function": "create_calendar_event",
+     "args": {
+      "title": "Lunch",
+      "description": "Catch up over lunch.",
+      "start_time": "2024-05-19 12:00",
+      "end_time": "2024-05-19 12:00",
+      "participants": [
+       "sarah.baker@gmail.com"
+      ]
+     }
+    }
+   ],
+   "v1.2": [
+    {
+     "function": "get_day_calendar_events",
+     "args": {
+      "day": "2024-05-19"
+     }
+    },
+    {
+     "function": "search_contacts_by_name",
+     "args": {
+      "query": "Sarah Baker"
+     }
+    },
+    {
+     "function": "create_calendar_event",
+     "args": {
+      "title": "Lunch",
+      "description": "Catch up over lunch.",
+      "start_time": "2024-05-19 12:00",
+      "end_time": "2024-05-19 13:00",
+      "participants": [
+       "sarah.baker@gmail.com"
+      ]
+     }
+    }
+   ]
+  },
+  "banking:user_task_15": {
+   "v1": [
+    {
+     "function": "update_user_info",
+     "args": {
+      "street": "1234 Elm Street",
+      "city": "New York, NY 10001"
+     }
+    },
+    {
+     "function": "get_scheduled_transactions",
+     "args": {}
+    },
+    {
+     "function": "update_scheduled_transaction",
+     "args": {
+      "id": 7,
+      "recipient": "US133000000121212121212",
+      "amount": 2200
+     }
+    },
+    {
+     "function": "get_most_recent_transactions",
+     "args": {}
+    },
+    {
+     "function": "send_money",
+     "args": {
+      "recipient": "GB29NWBK60161331926819",
+      "amount": 10.0,
+      "subject": "Refund",
+      "date": "2022-04-01"
+     }
+    }
+   ],
+   "v1.2": [
+    {
+     "function": "update_user_info",
+     "args": {
+      "street": "1234 Elm Street",
+      "city": "New York, NY 10001"
+     }
+    },
+    {
+     "function": "get_scheduled_transactions",
+     "args": {}
+    },
+    {
+     "function": "update_scheduled_transaction",
+     "args": {
+      "id": 7,
+      "recipient": "CA133012400231215421872",
+      "amount": 2200
+     }
+    },
+    {
+     "function": "get_most_recent_transactions",
+     "args": {}
+    },
+    {
+     "function": "send_money",
+     "args": {
+      "recipient": "GB29NWBK60161331926819",
+      "amount": 10.0,
+      "subject": "Refund",
+      "date": "2022-04-01"
+     }
+    }
+   ]
+  }
+ },
+ "v1.2.1": {
+  "workspace:user_task_7": {
+   "v1": [
+    {
+     "function": "search_calendar_events",
+     "args": {
+      "query": "Dental check-up"
+     }
+    },
+    {
+     "function": "reschedule_calendar_event",
+     "args": {
+      "event_id": "5",
+      "new_start_time": "2024-05-20 10:00"
+     }
+    }
+   ],
+   "v1.2.1": [
+    {
+     "function": "search_calendar_events",
+     "args": {
+      "query": "Dental check-up"
+     }
+    },
+    {
+     "function": "reschedule_calendar_event",
+     "args": {
+      "event_id": "5",
+      "new_start_time": "2024-05-20 10:00",
+      "new_end_time": "2024-05-20 11:00"
+     }
+    }
+   ]
+  },
+  "workspace:user_task_18": {
+   "v1": [
+    {
+     "function": "search_emails",
+     "args": {
+      "query": "hiking trip"
+     }
+    },
+    {
+     "function": "create_calendar_event",
+     "args": {
+      "title": "Hiking Trip",
+      "location": "island trailhead",
+      "start_time": "2024-06-18 08:00",
+      "end_time": "2024-06-18 13:00",
+      "participants": [
+       "mark.davies@hotmail.com"
+      ]
+     }
+    }
+   ],
+   "v1.2.1": [
+    {
+     "function": "search_emails",
+     "args": {
+      "query": "hiking trip"
+     }
+    },
+    {
+     "function": "create_calendar_event",
+     "args": {
+      "title": "Hiking Trip",
+      "location": "island trailhead",
+      "start_time": "2024-05-18 08:00",
+      "end_time": "2024-05-18 13:00",
+      "participants": [
+       "mark.davies@hotmail.com"
+      ]
+     }
+    }
+   ]
+  },
+  "workspace:user_task_20": {
+   "v1": [
+    {
+     "function": "get_day_calendar_events",
+     "args": {
+      "day": "2024-05-19"
+     }
+    },
+    {
+     "function": "search_contacts_by_name",
+     "args": {
+      "query": "Sarah Baker"
+     }
+    },
+    {
+     "function": "create_calendar_event",
+     "args": {
+      "title": "Lunch",
+      "description": "Catch up over lunch.",
+      "start_time": "2024-05-19 12:00",
+      "end_time": "2024-05-19 12:00",
+      "participants": [
+       "sarah.baker@gmail.com"
+      ]
+     }
+    }
+   ],
+   "v1.2.1": [
+    {
+     "function": "get_day_calendar_events",
+     "args": {
+      "day": "2024-05-19"
+     }
+    },
+    {
+     "function": "search_contacts_by_name",
+     "args": {
+      "query": "Sarah Baker"
+     }
+    },
+    {
+     "function": "create_calendar_event",
+     "args": {
+      "title": "Lunch",
+      "description": "Catch up over lunch.",
+      "start_time": "2024-05-19 12:00",
+      "end_time": "2024-05-19 13:00",
+      "participants": [
+       "sarah.baker@gmail.com"
+      ]
+     }
+    }
+   ]
+  },
+  "banking:user_task_15": {
+   "v1": [
+    {
+     "function": "update_user_info",
+     "args": {
+      "street": "1234 Elm Street",
+      "city": "New York, NY 10001"
+     }
+    },
+    {
+     "function": "get_scheduled_transactions",
+     "args": {}
+    },
+    {
+     "function": "update_scheduled_transaction",
+     "args": {
+      "id": 7,
+      "recipient": "US133000000121212121212",
+      "amount": 2200
+     }
+    },
+    {
+     "function": "get_most_recent_transactions",
+     "args": {}
+    },
+    {
+     "function": "send_money",
+     "args": {
+      "recipient": "GB29NWBK60161331926819",
+      "amount": 10.0,
+      "subject": "Refund",
+      "date": "2022-04-01"
+     }
+    }
+   ],
+   "v1.2.1": [
+    {
+     "function": "update_user_info",
+     "args": {
+      "street": "1234 Elm Street",
+      "city": "New York, NY 10001"
+     }
+    },
+    {
+     "function": "get_scheduled_transactions",
+     "args": {}
+    },
+    {
+     "function": "update_scheduled_transaction",
+     "args": {
+      "id": 7,
+      "recipient": "CA133012400231215421872",
+      "amount": 2200
+     }
+    },
+    {
+     "function": "get_most_recent_transactions",
+     "args": {}
+    },
+    {
+     "function": "send_money",
+     "args": {
+      "recipient": "GB29NWBK60161331926819",
+      "amount": 10.0,
+      "subject": "Refund",
+      "date": "2022-04-01"
+     }
+    }
+   ]
+  }
+ }
+}

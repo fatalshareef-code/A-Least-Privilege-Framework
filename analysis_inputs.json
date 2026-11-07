@@ -1,0 +1,34 @@
+{
+  "revision_outputs/main_analysis.json": {
+    "input": "revision_outputs/row_level/gpt-4o-2024-05-13.csv.gz",
+    "input_sha256": "24e3cb68d6e287f86b0297a9204eaad40bb0f68282548d833e6fb1aa36007ef5"
+  },
+  "revision_outputs/main_fix.json": {
+    "input": "revision_outputs/row_level/gpt-4o-2024-05-13_v111fix.csv.gz",
+    "input_sha256": "b7e5c59583a66dda11231cd9cf9cb33b2dacebc3b9c45995a54aa436b9524a7f"
+  },
+  "revision_outputs/stats.json": {
+    "input": "revision_outputs/row_level/gpt-4o-2024-05-13.csv.gz",
+    "input_sha256": "24e3cb68d6e287f86b0297a9204eaad40bb0f68282548d833e6fb1aa36007ef5"
+  },
+  "revision_outputs/utility_raw_counts.csv": {
+    "input": "revision_outputs/row_level/gpt-4o-2024-05-13.csv.gz",
+    "input_sha256": "24e3cb68d6e287f86b0297a9204eaad40bb0f68282548d833e6fb1aa36007ef5"
+  },
+  "revision_outputs/residual.json": {
+    "input": "artifacts/run_main/replay_rows_refined.csv",
+    "input_sha256": "07e77bd4f3b74359155b8e91d6e4033002f0b0760c7224c51591e74386af3e03"
+  },
+  "revision_outputs/adjudication_summary.json": {
+    "input": "revision_outputs/adjudication_candidates_all.csv.gz",
+    "input_sha256": "90a8cd668608a796efc40c03dc4bc3e474bfc84e37254dc0fc7d8dc1619a9adb"
+  },
+  "revision_outputs/multimodel.json": {
+    "input": "revision_outputs/row_level (all files)",
+    "input_sha256": null
+  },
+  "revision_outputs/pooled_models.json": {
+    "input": "revision_outputs/row_level (all files)",
+    "input_sha256": null
+  }
+}

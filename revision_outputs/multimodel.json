@@ -1,0 +1,490 @@
+{
+ "gpt-4o-2024-05-13": {
+  "runs": 609,
+  "attempted": 339,
+  "attempt_rate": 55.7,
+  "utility_attack": 49.4,
+  "utility_none": 69.1,
+  "C2c": [
+   73.5,
+   68.7,
+   78.2
+  ],
+  "C3s": [
+   85.0,
+   81.1,
+   88.5
+  ],
+  "diff": [
+   11.5,
+   8.3,
+   15.0
+  ],
+  "pres_C3s": 91.6,
+  "residual": 8.4
+ },
+ "claude-3-5-sonnet-20240620": {
+  "runs": 609,
+  "attempted": 224,
+  "attempt_rate": 36.8,
+  "utility_attack": 50.9,
+  "utility_none": 79.4,
+  "C2c": [
+   73.2,
+   67.4,
+   78.6
+  ],
+  "C3s": [
+   83.0,
+   78.1,
+   87.9
+  ],
+  "diff": [
+   9.8,
+   6.2,
+   13.8
+  ],
+  "pres_C3s": 94.4,
+  "residual": 6.2
+ },
+ "claude-3-5-sonnet-20241022": {
+  "runs": 609,
+  "attempted": 17
+ },
+ "claude-3-haiku-20240307": {
+  "runs": 609,
+  "attempted": 76,
+  "attempt_rate": 12.5,
+  "utility_attack": 33.7,
+  "utility_none": 39.2,
+  "C2c": [
+   59.2,
+   47.4,
+   69.7
+  ],
+  "C3s": [
+   69.7,
+   59.2,
+   80.3
+  ],
+  "diff": [
+   10.5,
+   3.9,
+   18.4
+  ],
+  "pres_C3s": 94.7,
+  "residual": 3.8
+ },
+ "claude-3-opus-20240229": {
+  "runs": 609,
+  "attempted": 86,
+  "attempt_rate": 14.1,
+  "utility_attack": 52.4,
+  "utility_none": 68.0,
+  "C2c": [
+   48.8,
+   38.4,
+   59.3
+  ],
+  "C3s": [
+   75.6,
+   66.3,
+   83.7
+  ],
+  "diff": [
+   26.7,
+   17.4,
+   36.0
+  ],
+  "pres_C3s": 97.0,
+  "residual": 3.4
+ },
+ "claude-3-sonnet-20240229": {
+  "runs": 609,
+  "attempted": 216,
+  "attempt_rate": 35.5,
+  "utility_attack": 32.5,
+  "utility_none": 53.6,
+  "C2c": [
+   74.5,
+   69.0,
+   80.1
+  ],
+  "C3s": [
+   86.6,
+   81.9,
+   91.2
+  ],
+  "diff": [
+   12.0,
+   7.9,
+   16.7
+  ],
+  "pres_C3s": 97.2,
+  "residual": 4.8
+ },
+ "command-r-plus": {
+  "runs": 609,
+  "attempted": 15
+ },
+ "command-r": {
+  "runs": 609,
+  "attempted": 43,
+  "attempt_rate": 7.1,
+  "utility_attack": 31.4,
+  "utility_none": 26.8,
+  "C2c": [
+   27.9,
+   16.3,
+   41.9
+  ],
+  "C3s": [
+   62.8,
+   48.8,
+   76.7
+  ],
+  "diff": [
+   34.9,
+   20.9,
+   48.8
+  ],
+  "pres_C3s": 92.1,
+  "residual": 2.6
+ },
+ "gemini-1.5-flash-001": {
+  "runs": 609,
+  "attempted": 101,
+  "attempt_rate": 16.6,
+  "utility_attack": 34.8,
+  "utility_none": 38.1,
+  "C2c": [
+   58.4,
+   48.5,
+   68.3
+  ],
+  "C3s": [
+   76.2,
+   67.3,
+   84.2
+  ],
+  "diff": [
+   17.8,
+   10.9,
+   25.7
+  ],
+  "pres_C3s": 95.2,
+  "residual": 3.9
+ },
+ "gemini-1.5-flash-002": {
+  "runs": 609,
+  "attempted": 36,
+  "attempt_rate": 5.9,
+  "utility_attack": 33.0,
+  "utility_none": 38.1,
+  "C2c": [
+   50.0,
+   33.3,
+   66.7
+  ],
+  "C3s": [
+   61.1,
+   44.4,
+   77.8
+  ],
+  "diff": [
+   11.1,
+   2.8,
+   22.2
+  ],
+  "pres_C3s": 96.9,
+  "residual": 2.3
+ },
+ "gemini-1.5-pro-001": {
+  "runs": 609,
+  "attempted": 196,
+  "attempt_rate": 32.2,
+  "utility_attack": 29.2,
+  "utility_none": 46.4,
+  "C2c": [
+   66.8,
+   60.2,
+   73.5
+  ],
+  "C3s": [
+   85.7,
+   80.6,
+   90.3
+  ],
+  "diff": [
+   18.9,
+   13.3,
+   24.5
+  ],
+  "pres_C3s": 98.7,
+  "residual": 4.6
+ },
+ "gemini-1.5-pro-002": {
+  "runs": 609,
+  "attempted": 139,
+  "attempt_rate": 22.8,
+  "utility_attack": 47.5,
+  "utility_none": 61.9,
+  "C2c": [
+   49.6,
+   41.0,
+   58.3
+  ],
+  "C3s": [
+   78.4,
+   71.2,
+   84.9
+  ],
+  "diff": [
+   28.8,
+   21.6,
+   36.7
+  ],
+  "pres_C3s": 95.7,
+  "residual": 4.9
+ },
+ "gemini-2.0-flash-exp": {
+  "runs": 609,
+  "attempted": 119,
+  "attempt_rate": 19.5,
+  "utility_attack": 39.7,
+  "utility_none": 46.4,
+  "C2c": [
+   65.5,
+   57.1,
+   73.9
+  ],
+  "C3s": [
+   84.9,
+   78.2,
+   90.8
+  ],
+  "diff": [
+   19.3,
+   12.6,
+   26.9
+  ],
+  "pres_C3s": 95.1,
+  "residual": 3.0
+ },
+ "gpt-3.5-turbo-0125": {
+  "runs": 609,
+  "attempted": 103,
+  "attempt_rate": 16.9,
+  "utility_attack": 35.3,
+  "utility_none": 35.1,
+  "C2c": [
+   65.0,
+   55.3,
+   73.8
+  ],
+  "C3s": [
+   88.3,
+   81.6,
+   94.2
+  ],
+  "diff": [
+   23.3,
+   15.5,
+   32.0
+  ],
+  "pres_C3s": 89.3,
+  "residual": 2.0
+ },
+ "gpt-4-0125-preview": {
+  "runs": 609,
+  "attempted": 417,
+  "attempt_rate": 68.5,
+  "utility_attack": 40.1,
+  "utility_none": 66.0,
+  "C2c": [
+   74.8,
+   70.5,
+   78.9
+  ],
+  "C3s": [
+   86.3,
+   83.0,
+   89.4
+  ],
+  "diff": [
+   11.5,
+   8.6,
+   14.6
+  ],
+  "pres_C3s": 90.3,
+  "residual": 9.4
+ },
+ "gpt-4-turbo-2024-04-09": {
+  "runs": 609,
+  "attempted": 214,
+  "attempt_rate": 35.1,
+  "utility_attack": 54.2,
+  "utility_none": 64.9,
+  "C2c": [
+   70.6,
+   64.5,
+   76.6
+  ],
+  "C3s": [
+   86.4,
+   81.8,
+   90.7
+  ],
+  "diff": [
+   15.9,
+   11.2,
+   21.0
+  ],
+  "pres_C3s": 91.5,
+  "residual": 4.8
+ },
+ "gpt-4o-2024-05-13-repeat_user_prompt": {
+  "runs": 609,
+  "attempted": 202,
+  "attempt_rate": 33.2,
+  "utility_attack": 67.0,
+  "utility_none": 84.5,
+  "C2c": [
+   64.4,
+   57.9,
+   70.8
+  ],
+  "C3s": [
+   81.2,
+   75.7,
+   86.1
+  ],
+  "diff": [
+   16.8,
+   11.9,
+   22.3
+  ],
+  "pres_C3s": 91.1,
+  "residual": 6.2
+ },
+ "gpt-4o-2024-05-13-spotlighting_with_delimiting": {
+  "runs": 609,
+  "attempted": 294,
+  "attempt_rate": 48.3,
+  "utility_attack": 55.2,
+  "utility_none": 72.2,
+  "C2c": [
+   71.4,
+   66.3,
+   76.5
+  ],
+  "C3s": [
+   83.7,
+   79.3,
+   87.8
+  ],
+  "diff": [
+   12.2,
+   8.8,
+   16.0
+  ],
+  "pres_C3s": 91.6,
+  "residual": 7.9
+ },
+ "gpt-4o-2024-05-13-tool_filter": {
+  "runs": 609,
+  "attempted": 74,
+  "attempt_rate": 12.2,
+  "utility_attack": 55.7,
+  "utility_none": 72.2,
+  "C2c": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "C3s": [
+   54.1,
+   43.2,
+   64.9
+  ],
+  "diff": [
+   54.1,
+   43.2,
+   64.9
+  ],
+  "pres_C3s": 93.3,
+  "residual": 5.6
+ },
+ "gpt-4o-2024-05-13-transformers_pi_detector": {
+  "runs": 609,
+  "attempted": 85,
+  "attempt_rate": 14.0,
+  "utility_attack": 21.3,
+  "utility_none": 41.2,
+  "C2c": [
+   68.2,
+   57.6,
+   77.6
+  ],
+  "C3s": [
+   76.5,
+   67.1,
+   84.7
+  ],
+  "diff": [
+   8.2,
+   3.5,
+   14.1
+  ],
+  "pres_C3s": 99.0,
+  "residual": 3.3
+ },
+ "gpt-4o-mini-2024-07-18": {
+  "runs": 609,
+  "attempted": 222,
+  "attempt_rate": 36.5,
+  "utility_attack": 49.8,
+  "utility_none": 68.0,
+  "C2c": [
+   75.7,
+   69.8,
+   81.5
+  ],
+  "C3s": [
+   87.4,
+   82.9,
+   91.4
+  ],
+  "diff": [
+   11.7,
+   7.7,
+   16.2
+  ],
+  "pres_C3s": 89.5,
+  "residual": 4.6
+ },
+ "meta-llama_Llama-3-70b-chat-hf": {
+  "runs": 609,
+  "attempted": 191,
+  "attempt_rate": 31.4,
+  "utility_attack": 18.6,
+  "utility_none": 34.0,
+  "C2c": [
+   74.3,
+   68.1,
+   80.1
+  ],
+  "C3s": [
+   88.0,
+   83.2,
+   92.1
+  ],
+  "diff": [
+   13.6,
+   8.9,
+   18.8
+  ],
+  "pres_C3s": 96.4,
+  "residual": 3.8
+ }
+}

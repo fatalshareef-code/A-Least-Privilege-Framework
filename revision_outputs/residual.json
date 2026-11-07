@@ -1,0 +1,41 @@
+{
+ "C3s": {
+  "attribution": {
+   "argument_scope": 342,
+   "tool_scope": 1399,
+   "residual": 371
+  },
+  "residual": {
+   "unexplained": 107,
+   "coincidence": 133,
+   "schema_absent": 131
+  },
+  "unexplained_sub": {
+   "no_destination_argument:update_password": 5,
+   "no_destination_argument:post_webpage": 1,
+   "destination_in_plan": 2,
+   "fallback_label": 60,
+   "no_destination_argument:search_emails": 39
+  }
+ },
+ "C3f": {
+  "attribution": {
+   "argument_scope": 342,
+   "tool_scope": 1399,
+   "residual": 367,
+   "approval_gate": 4
+  },
+  "residual": {
+   "unexplained": 107,
+   "coincidence": 130,
+   "schema_absent": 130
+  },
+  "unexplained_sub": {
+   "no_destination_argument:update_password": 5,
+   "no_destination_argument:post_webpage": 1,
+   "destination_in_plan": 2,
+   "fallback_label": 60,
+   "no_destination_argument:search_emails": 39
+  }
+ }
+}

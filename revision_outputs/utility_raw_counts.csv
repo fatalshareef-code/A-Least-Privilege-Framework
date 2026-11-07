@@ -1,0 +1,7 @@
+config,attacked_benign_admitted,attacked_benign_total,clean_benign_admitted,clean_benign_total,attacked_success_runs_with_refusal,attacked_success_runs,clean_success_runs_with_refusal,clean_success_runs
+C2c,18394,21276,321,354,863,3604,9,67
+C3s,17913,21276,315,354,1027,3604,13,67
+C3f,17798,21276,315,354,1039,3604,13,67
+C2tf,11553,21276,200,354,1857,3604,32,67
+C3p,15840,21276,261,354,1213,3604,20,67
+C3tf,9297,21276,147,354,2156,3604,42,67

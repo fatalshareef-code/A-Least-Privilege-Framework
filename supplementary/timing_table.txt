@@ -1,0 +1,16 @@
+Table 12. Local runtime of the component prototypes, microseconds (1,000 timed repetitions after 100 warm-up iterations, single process). Inputs differ across operations, so medians should not be summed.
+
+  ------------------------------------------------------------------------------
+  Operation                             Median (µs)       95th percentile (µs)
+  ------------------------------------- ----------------- ----------------------
+  L1 request signing and verification   252.0             317.9
+
+  L2 authorization                      0.77              0.83
+
+  L3 scoring                            8.22              8.48
+
+  L4 append                             37.8              54.4
+
+  L4 verification of 100 records        11,709            15,337
+
+  Integrated sign, enforce and audit    297.4             331.6
